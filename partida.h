@@ -9,8 +9,10 @@ protected:
 
         public:
 
-    int comprobar_ganador();
+    int comprobar_mejor3();
     bool fin_de_juego();
+    int comprobar_ganador();
 
+    partida(jugador&, jugador&); //CONSTRUCTOR
 };
 

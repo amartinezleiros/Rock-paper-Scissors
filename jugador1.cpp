@@ -4,7 +4,6 @@
 
 void jugador1::jugar() {
 
-std::string valor;
 t:
 std::cout << "Escoge (Piedra, Papel, Tijera): " << std::endl;
 std::cin >> valor;

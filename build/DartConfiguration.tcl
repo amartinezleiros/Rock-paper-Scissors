@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors
-BuildDirectory: C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build
+SourceDirectory: C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors
+BuildDirectory: C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: EQUIP079579
+Site: EQUIP079578
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-MSBuild
+BuildName: Win32-ninja
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors"
+ConfigureCommand: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors"
 MakeCommand: "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -62,7 +62,7 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x86/cl.exe
 CompilerVersion: 19.27.29112.0
 
 # Dynamic analysis (MemCheck)
@@ -96,7 +96,7 @@ TimeOut: 1500
 # so would cause the system load to exceed this value.
 TestLoad: 
 
-UseLaunchers: 0
+UseLaunchers: 
 CurlOptions: 
 # warning, if you add new options here that have to do with submit,
 # you have to update cmCTestSubmitCommand.cxx

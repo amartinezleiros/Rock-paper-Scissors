@@ -1,14 +1,14 @@
-
+#pragma once
 #include <string>
 
 class jugador {
 
 // Atributos de jugador
 
-protected:
+public:
 
     std::string nombre;
-    int jugada;
+    std::string valor;
 
 //Métodos y acciones
 public :

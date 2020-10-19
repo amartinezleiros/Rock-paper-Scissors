@@ -1,9 +1,34 @@
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/NightlyMemoryCheck.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/Experimental.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/Continuous.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/Nightly.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/Rock_Paper_Scissors.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/PACKAGE.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Aula/Documents/Oscar/Ejercicios Practicos/Ejercicios unidad06/Rock-paper-Scissors/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/Experimental.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousSubmit.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousConfigure.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyTest.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyStart.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyBuild.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlySubmit.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyConfigure.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousTest.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/Continuous.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/Nightly.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyUpdate.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyCoverage.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/package_source.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/NightlyMemCheck.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalStart.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalUpdate.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalConfigure.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalBuild.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalTest.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalCoverage.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalMemCheck.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ExperimentalSubmit.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousBuild.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousStart.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/package.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousUpdate.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousCoverage.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/ContinuousMemCheck.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/Rock_Paper_Scissors.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/test.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/edit_cache.dir
+C:/Users/Aula/Desktop/AML/EJEMPLO/Rock-paper-Scissors/build/CMakeFiles/rebuild_cache.dir
