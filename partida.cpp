@@ -41,6 +41,8 @@ bool partida::fin_de_juego() {
 partida::partida(jugador&A, jugador&B){
     jugadores[0] = A;
     jugadores[1] = B;
+    score[0] = 0;
+    score[1] = 0;
 }
 
 
@@ -51,7 +53,9 @@ partida::partida(jugador&A, jugador&B){
 
 int partida::comprobar_ganador() {
 
-    if (jugadores[0].valor == "Piedra" && jugadores[1].valor == "Papel")
+    std::cout << score[0] << score[1];
+
+if (jugadores[0].valor == "Piedra" && jugadores[1].valor == "Papel")
 {std::cout << "Gana el jugador máquina" << std::endl;
 score[1]++;
 }

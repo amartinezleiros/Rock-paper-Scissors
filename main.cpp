@@ -9,6 +9,7 @@ int main() {
     jugador1 j1; //INSTANCIA
     jugadorIA jIA;
     partida p(j1, jIA);
+    
  
     
 

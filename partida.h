@@ -15,5 +15,6 @@ protected:
 
     partida(jugador&, jugador&); //CONSTRUCTOR
     
+    
 };
 
