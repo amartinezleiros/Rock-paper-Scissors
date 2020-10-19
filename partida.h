@@ -3,19 +3,13 @@
 class partida {
 
 protected:
-    char nombre;
-    int score;
+    int jugadores[2];
+    int score[2];
 
         public:
 
-    void jugada();
-    void comparacion();
+    int comprobar_ganador();
+    bool fin_de_juego();
 
 };
 
-#endif
-
-
-};
-
-#endif

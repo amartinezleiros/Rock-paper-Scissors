@@ -1,4 +1,5 @@
 
+#include <string>
 
 class jugador {
 
@@ -6,10 +7,10 @@ class jugador {
 
 protected:
 
-    char nombre;
+    std::string nombre;
     int jugada;
 
 //Métodos y acciones
 
-}
+};
 
