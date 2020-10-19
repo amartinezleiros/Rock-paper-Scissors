@@ -21,4 +21,6 @@ int main() {
         p.comprobar_ganador();
         p.comprobar_mejor3();
     }
+
+    system("pause");
 }
