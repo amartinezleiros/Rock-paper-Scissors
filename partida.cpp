@@ -25,12 +25,16 @@ return 0;
 //         FUNCION COMPROBAR SI EL JUEGO TERMINÓ                       //
 
 bool partida::fin_de_juego() {
-    if (comprobar_ganador() == 1) {
+    if (comprobar_mejor3() == 1) {
+
         return true;
+        std::cout << "gana juego jugador 1";
     }
-     if (comprobar_ganador() == 2) {
+     if (comprobar_mejor3() == 2) {
         return true;
+        std::cout << "gana juego jugador 2";
     }
+
     return false;
 }
 
@@ -38,7 +42,6 @@ partida::partida(jugador&A, jugador&B){
     jugadores[0] = A;
     jugadores[1] = B;
 }
-
 
 
 

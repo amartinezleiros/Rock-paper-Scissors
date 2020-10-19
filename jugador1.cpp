@@ -2,17 +2,18 @@
 #include <iostream>
 #include <string>
 
+
 void jugador1::jugar() {
 
 t:
 std::cout << "Escoge (Piedra, Papel, Tijera): " << std::endl;
 std::cin >> valor;
 
-
 if (valor == "piedra" || valor == "Piedra") {valor = "Piedra";}
-if (valor == "papel" || valor == "Papel") {valor = "Papel";}
-if (valor == "tijera" || valor == "Tijera") {valor = "Tijera";}
-else {goto t;};
+else if (valor == "papel" || valor == "Papel") {valor = "Papel";}
+else if (valor == "tijera" || valor == "Tijera") {valor = "Tijera";}
+else goto t;
 
+std::cout << "Jugador uno ha escogido: " << valor << std::endl;
 
 }

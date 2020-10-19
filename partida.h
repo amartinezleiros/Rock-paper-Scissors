@@ -14,5 +14,6 @@ protected:
     int comprobar_ganador();
 
     partida(jugador&, jugador&); //CONSTRUCTOR
+    
 };
 
