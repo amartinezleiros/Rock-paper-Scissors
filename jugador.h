@@ -11,6 +11,8 @@ protected:
     int jugada;
 
 //Métodos y acciones
+public :
 
+void jugar();
 };
 

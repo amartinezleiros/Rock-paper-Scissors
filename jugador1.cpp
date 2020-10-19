@@ -10,9 +10,9 @@ std::cout << "Escoge (Piedra, Papel, Tijera): " << std::endl;
 std::cin >> valor;
 
 
-if (valor == "piedra" || valor == "Piedra") {valor = "Piedra";};
-else (valor == "papel" || valor == "Papel") {valor = "Papel"}
-else (valor == "tijera" || valor == "Tijera") {valor = "Tijera"}
+if (valor == "piedra" || valor == "Piedra") {valor = "Piedra";}
+if (valor == "papel" || valor == "Papel") {valor = "Papel";}
+if (valor == "tijera" || valor == "Tijera") {valor = "Tijera";}
 else {goto t;};
 
 

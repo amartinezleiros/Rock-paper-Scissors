@@ -1,9 +1,10 @@
 #pragma once
+#include "jugador.h"
 
 class partida {
 
 protected:
-    int jugadores[2];
+    jugador jugadores[2];
     int score[2];
 
         public:
