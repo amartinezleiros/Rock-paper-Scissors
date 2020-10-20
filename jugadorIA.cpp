@@ -5,7 +5,7 @@
 
 void jugadorIA::jugar() {
 
-std::string valor;
+
 
 srand((unsigned int)time(NULL));
 int random = rand()%3;

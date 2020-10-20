@@ -4,8 +4,9 @@
 class partida {
 
 protected:
-    jugador jugadores[2];
-    int score[2];
+    jugador& jugador1;
+    jugador& jugador2;
+    int score[2] = {0,0};
 
         public:
 
@@ -14,6 +15,7 @@ protected:
     int comprobar_ganador();
 
     partida(jugador&, jugador&); //CONSTRUCTOR
+    
     
     
 };

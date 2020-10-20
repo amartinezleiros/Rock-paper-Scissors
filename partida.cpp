@@ -7,10 +7,12 @@
 int partida::comprobar_mejor3(){
 
     if (score[0] == 3) {
+     
         return 1;
 }
 
     if (score[1] == 3) {
+         
         return 2;
 }
 return 0;
@@ -26,21 +28,21 @@ return 0;
 
 bool partida::fin_de_juego() {
     if (comprobar_mejor3() == 1) {
-
+        std::cout << "Finaliza el juego. Gana el jugador 1                        ";
         return true;
-        std::cout << "gana juego jugador 1";
+
     }
      if (comprobar_mejor3() == 2) {
+         std::cout << "Finaliza el juego. Gana el jugador 2                        ";
         return true;
-        std::cout << "gana juego jugador 2";
+       
     }
 
     return false;
 }
 
-partida::partida(jugador&A, jugador&B){
-    jugadores[0] = A;
-    jugadores[1] = B;
+partida::partida(jugador&A, jugador&B):jugador1(A), jugador2(B){
+
     score[0] = 0;
     score[1] = 0;
 }
@@ -53,41 +55,41 @@ partida::partida(jugador&A, jugador&B){
 
 int partida::comprobar_ganador() {
 
-    std::cout << score[0] << score[1];
+if (jugador1.valor == "Piedra" && jugador2.valor == "Papel")
+{std::cout << "\nGana la ronda el jugador maquina" << std::endl;
+score[1]++;
+}
+if (jugador1.valor == "Piedra" && jugador2.valor == "Tijera")
+{std::cout << "\nGana la ronda el jugador persona" << std::endl;
+score[0]++;
+}
+if (jugador1.valor == "Piedra" && jugador2.valor == "Piedra")
+{std::cout << "\nEmpate" << std::endl;
+}
+if (jugador1.valor == "Papel" && jugador2.valor == "Piedra")
+{std::cout << "\nGana la ronda el jugador persona" << std::endl;
+score[0]++;
+}
+if (jugador1.valor == "Papel" && jugador2.valor == "Tijera")
+{std::cout << "\nGana la ronda el jugador maquina" << std::endl;
+score[1]++;
+}
+if (jugador1.valor == "Papel" && jugador2.valor == "Papel")
+{std::cout << "\nEmpate" << std::endl;
+}
+if (jugador1.valor== "Tijera" && jugador2.valor == "Piedra")
+{std::cout << "\nGana la ronda el jugador maquina" << std::endl;
+score[1]++;
+}
+if (jugador1.valor == "Tijera" && jugador2.valor == "Papel")
+{std::cout << "\nGana la ronda el jugador persona" << std::endl;
+score[0]++;
+}
+if (jugador1.valor == "Tijera" && jugador2.valor == "Tijera")
+{std::cout << "\nEmpate" << std::endl;
+}
 
-if (jugadores[0].valor == "Piedra" && jugadores[1].valor == "Papel")
-{std::cout << "Gana el jugador máquina" << std::endl;
-score[1]++;
-}
-if (jugadores[0].valor == "Piedra" && jugadores[1].valor == "Tijera")
-{std::cout << "Gana el jugador persona" << std::endl;
-score[0]++;
-}
-if (jugadores[0].valor == "Piedra" && jugadores[1].valor == "Piedra")
-{std::cout << "Empate" << std::endl;
-}
-if (jugadores[0].valor == "Papel" && jugadores[1].valor == "Piedra")
-{std::cout << "Gana el jugador persona" << std::endl;
-score[0]++;
-}
-if (jugadores[0].valor == "Papel" && jugadores[1].valor == "Tijera")
-{std::cout << "Gana el jugador máquina" << std::endl;
-score[1]++;
-}
-if (jugadores[0].valor == "Papel" && jugadores[1].valor == "Papel")
-{std::cout << "Empate" << std::endl;
-}
-if (jugadores[0].valor== "Tijera" && jugadores[1].valor == "Piedra")
-{std::cout << "Gana el jugador máquina" << std::endl;
-score[1]++;
-}
-if (jugadores[0].valor == "Tijera" && jugadores[1].valor == "Papel")
-{std::cout << "Gana el jugador persona" << std::endl;
-score[0]++;
-}
-if (jugadores[0].valor == "Tijera" && jugadores[1].valor == "Tijera")
-{std::cout << "Empate" << std::endl;
-}
+std::cout << "\nContador:  Player1    Player 2\n" << "              " << score[0] << "          " << score[1] << "\n" << std::endl;
 
 return 0;
 }

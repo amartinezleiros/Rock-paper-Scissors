@@ -14,6 +14,6 @@ else if (valor == "papel" || valor == "Papel") {valor = "Papel";}
 else if (valor == "tijera" || valor == "Tijera") {valor = "Tijera";}
 else goto t;
 
-std::cout << "Jugador uno ha escogido: " << valor << std::endl;
+std::cout << "\nJugador uno ha escogido: " << valor << "\n" << std::endl;
 
 }
