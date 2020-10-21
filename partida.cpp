@@ -89,7 +89,7 @@ if (jugador1.valor == "Tijera" && jugador2.valor == "Tijera")
 {std::cout << "\nEmpate" << std::endl;
 }
 
-std::cout << "\nContador:  Player1    Player 2\n" << "              " << score[0] << "          " << score[1] << "\n" << std::endl;
-
+std::cout << " \n          *************************\n" << "Contador: *  Player1    Player 2  *\n" << "          *     " << score[0] << "          " << score[1] << "      *   " << std::endl;
+std::cout <<  "          *************************\n" << std::endl;
 return 0;
 }
