@@ -9,10 +9,12 @@ public:
 
     std::string nombre;
     std::string valor;
+    std::string modo_juego;
 
 //Métodos y acciones
 public :
 
 void jugar();
+std::string modo();
 };
 

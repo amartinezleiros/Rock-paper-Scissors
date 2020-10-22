@@ -3,6 +3,7 @@
 #include "jugador1.h"
 #include "jugadorIA.h"
 #include "partida.h"
+#include "partidasheldon.h"
 
 
 
@@ -11,7 +12,10 @@ int main() {
     jugador1 j1; //INSTANCIA
     jugadorIA jIA;
     partida p(j1, jIA);
-    
+    jugador t;
+
+       
+        t.modo();
 
         while (!p.fin_de_juego()) {
    

@@ -8,6 +8,7 @@ protected:
     jugador& jugador2;
     int score[2] = {0,0};
 
+
         public:
 
     int comprobar_mejor3();
