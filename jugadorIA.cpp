@@ -2,7 +2,11 @@
 #include <iostream>
 #include <string>
 #include <time.h>
-#include <jugador.h>
+#include "jugador.h"
+
+
+jugadorIA::jugadorIA(std::string m) : jugador("Maquina", m) {}
+
 
 void jugadorIA::jugar() {
 

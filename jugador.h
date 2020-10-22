@@ -14,7 +14,7 @@ public:
 //Métodos y acciones
 public :
 
+jugador(std::string n, std::string m);
 void jugar();
-std::string modo();
 };
 

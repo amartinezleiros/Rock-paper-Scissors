@@ -2,6 +2,8 @@
 #include "partida.h"
 
 class partidasheldon:public partida {
+
+
     
     public:
 

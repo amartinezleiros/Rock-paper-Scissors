@@ -3,6 +3,10 @@
 #include <string>
 
 
+jugador1::jugador1(std::string n, std::string m) : jugador(n, m) {
+    
+}
+
 
 void jugador1::jugar() {
 

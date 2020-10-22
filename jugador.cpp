@@ -1,9 +1,10 @@
 #include "jugador.h"
 #include <iostream>
 
-void jugador::jugar() {} 
-std::string jugador::modo(){
+jugador::jugador(std::string n, std::string m) : nombre(n), modo_juego(m) {
 
-    std::cout << "Escoja tipo de partida(Normal/Sheldon): " << std::endl;
-    std::cin >> modo_juego;
 }
+
+
+void jugador::jugar() {} 
+
