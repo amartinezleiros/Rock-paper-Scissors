@@ -11,10 +11,12 @@ jugador1::jugador1(std::string n, std::string m) : jugador(n, m) {
 void jugador1::jugar() {
 
 
+
 if (modo_juego == "Normal") {
 t:
 std::cout << "Escoge (Piedra, Papel, Tijera): " << std::endl;
 std::cin >> valor;
+
 
 if (valor == "piedra" || valor == "Piedra") {valor = "Piedra";}
 else if (valor == "papel" || valor == "Papel") {valor = "Papel";}
